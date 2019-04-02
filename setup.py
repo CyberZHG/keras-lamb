@@ -12,7 +12,7 @@ with codecs.open('requirements.txt', 'r', 'utf8') as reader:
 
 setup(
     name='keras-lamp',
-    version='0.1.0',
+    version='0.0.1',
     packages=find_packages(),
     url='https://github.com/CyberZHG/keras-lamp',
     license='MIT',

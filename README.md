@@ -8,8 +8,17 @@
 ## Install
 
 ```bash
-pip install keras-lamb
+python setup.py install
 ```
 
 ## Usage
 
+```python
+from keras.layers import Dense
+from keras.models import Sequential
+from keras_lamb import Lamb
+
+model = Sequential()
+model.add(Dense(input_shape=(5,), units=3))
+model.compile(optimizer=Lamb(), loss='mse')
+```
